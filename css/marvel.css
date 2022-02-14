@@ -367,6 +367,10 @@ b, strong {
 	background-color: #222;
 }
 
+.dark-mode .custom-btn .uil {
+	color: #5b5b5b;
+}
+
 .timeline-wrapper {
 	position: relative;
 	padding: 22px 0;
