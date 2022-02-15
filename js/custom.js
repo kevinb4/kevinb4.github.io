@@ -2,8 +2,6 @@
 
 	"use strict";
 
-	console.log(window.matchMedia)
-
 	const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 
 	if (prefersDarkScheme.matches) {

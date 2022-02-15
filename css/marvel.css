@@ -371,6 +371,10 @@ b, strong {
 	color: #5b5b5b;
 }
 
+.dark-mode .form-control {
+	color: #ddd;
+}
+
 .timeline-wrapper {
 	position: relative;
 	padding: 22px 0;
