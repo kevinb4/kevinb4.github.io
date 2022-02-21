@@ -104,6 +104,11 @@ b, strong {
 	color: #ffffff !important;
 }
 
+.contract {
+	margin-top: 11px;
+	display: block;
+}
+
 .highlight {
 	color: #0077ff;
 }
