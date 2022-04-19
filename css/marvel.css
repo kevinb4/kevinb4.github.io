@@ -294,6 +294,7 @@ b, strong {
 	font-size: 16px;
 	font-weight: normal;
 	display: block;
+	padding-bottom: 20px;
 }
 
 .color-mode {
@@ -347,10 +348,6 @@ b, strong {
 	color: #ddd;
 }
 
-.dark-mode .form-control {
-	border-color: #444;
-}
-
 .dark-mode .feature-card .uil,
 .dark-mode .navbar-light .navbar-brand,
 .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
@@ -378,6 +375,18 @@ b, strong {
 
 .dark-mode .form-control {
 	color: #ddd;
+}
+
+.dark-mode .projects {
+	border: 2px groove #fff;
+}
+
+.dark-mode .owl-theme .owl-dots .owl-dot span {
+	background: #999;
+}
+
+.dark-mode .owl-dot.active span {
+	background: #eee !important;
 }
 
 .timeline-wrapper {
@@ -467,8 +476,8 @@ b, strong {
 	font-size: inherit;
 }
 
-.owl-theme .owl-nav [class*=owl-]:hover {
-	color: #0077ff;
+.owl-theme .owl-nav [class*="owl-"]:hover {
+	color: #212529;
 }
 
 .owl-theme .owl-dots .owl-dot {
@@ -480,13 +489,10 @@ b, strong {
 	height: 8px;
 }
 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-	background: #5b5b5b;
-}
-
 .projects {
 	width: 80% !important;
 	display: inline !important;
+	border-radius: 15px;
 }
 
 .contact-form {
