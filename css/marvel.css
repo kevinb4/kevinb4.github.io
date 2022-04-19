@@ -45,6 +45,11 @@ a:hover {
 	font-size: 40px;
 }
 
+.navbar-brand span {
+	position: relative;
+	bottom: 8px;
+}
+
 p {
 	font-size: 18px;
 	font-weight: 300;
